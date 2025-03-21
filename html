@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>you are Welcome to pedro webpage</h1>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />      
+    <title>ChatGPT</title>
+    
+    <section><section id="contact">
+        <h2>Contact pedro</h2>
+        <form id="contact-form" action="https://formspree.io/f/xeoaozgw" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+      
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+      
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" required></textarea>
+      
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+      </section>
+    <style>
+#dark-mode-toggle:hover {
+  background-color: #ddd;
+}
+
+body.dark-mode #dark-mode-toggle:hover {
+  background-color: #444;
+}
+
+
+/* Light mode (default) */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+#dark-mode-toggle {
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode button style */
+body.dark-mode #dark-mode-toggle {
+  background-color: #333;
+  color: white;
+}
+
+    </style>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        #main {
+            transition: margin-right .5s;
+            padding: 16px;
+        }
+    </style>
+    <style>
+        .sidebar img {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+        }
+        .homepage {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+        .homepage h1 {
+            font-size: 48px;
+            color: white;
+        }
+        .homepage button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #4a90e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .homepage button:hover {
+            background-color: #357ab8;
+        }
+        @keyframes backgroundAnimation {
+            0% { background: linear-gradient(135deg, #f06, #4a90e2); }
+            100% { background: linear-gradient(135deg, #4a90e2, #f06); }
+        }
+    </style>
+    <style>#projects {
+        text-align: center;
+        padding: 3rem 0;
+        background-color: #f8f9fa;
+      }
+      
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+      
+      .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .project {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        text-align: left;
+      }
+      
+      .project h3 {
+        font-size: 1.5rem;
+      }
+      
+      .project a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .project a:hover {
+        text-decoration: underline;
+      }
+      </style>
+    <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+ #contact {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Limit the width of the form */
+  margin: 2rem auto; /* Center the form and add margin on top */
+  width: 100%; /* Allow the form to be responsive */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+      </style>
+</head>
+<body>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of your project. You can add details about what it does.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+      
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of another project. You can add a live demo link too.</p>
+            <a href="https://yourwebsite.com/project2" target="_blank" rel="noopener">Live Demo</a>
+          </div>
+      
+          <!-- Add more projects as needed -->
+        </div>
+      </section>      
+
+<div id="main">
+    <button onclick="openNav()">Open ChatGPT Sidebar</button>
+</div>
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">ChatGPT</a>
+    <a href="#">New Chat</a>
+    <a href="#">sign up </a>
+    <a href="#">Settings</a>
+    <a href="#">Help</a>
+</div>
+
+<button id="dark-mode-toggle" title="Toggle Dark Mode">
+    <i class="fas fa-moon"></i> <!-- Moon icon for Dark Mode -->
+</button>
+  
+
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginRight= "0";
+    }
+</script>
+<script>
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
+    let darkMode = false;
+
+    darkModeToggle.addEventListener('click', () => {
+        darkMode = !darkMode;
+        if (darkMode) {
+            document.body.classList.add('dark-mode');
+            darkModeToggle.innerText = '☀️ Light Mode';
+        } else {
+            document.body.classList.remove('dark-mode');
+            darkModeToggle.innerText = '🌙 Dark Mode';
+        }
+    });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("dark-mode-toggle");
+
+  // Check if the user has a saved theme preference
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+    toggleButton.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for Light Mode
+  }
+
+  toggleButton.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    // Toggle icons
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("theme", "dark");
+      toggleButton.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for Light Mode
+    } else {
+      localStorage.setItem("theme", "light");
+      toggleButton.innerHTML = '<i class="fas fa-moon"></i>'; // Moon icon for Dark Mode
+    }
+  });
+});
+</script>
+<script>document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form from submitting normally
+    
+    // Show success message
+    alert("Thank you for your message! We'll get back to you soon.");
+  });
+  
+</script>
+
+
+
+</body>
+</html>
